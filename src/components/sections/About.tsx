@@ -1,5 +1,5 @@
 import { GraduationCap, Award, BookOpen } from 'lucide-react'
-import reginaPortrait from '@/assets/fotounip-1f0c8.png'
+import reginaPortrait from '@/assets/qualificacao1-345c4.jpeg'
 
 export function About() {
   const credentials = [
@@ -26,12 +26,12 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 lg:order-1 animate-slide-up">
             <div className="absolute inset-0 border-2 border-rc-gold/30 translate-x-4 translate-y-4 rounded-xl" />
-            <div className="relative z-10 w-full h-[450px] md:h-[600px] overflow-hidden rounded-xl shadow-xl">
+            <div className="relative z-10 w-full h-[450px] md:h-[600px] overflow-hidden rounded-xl shadow-xl bg-rc-navy/5">
               <img
                 src={reginaPortrait}
                 alt="Regina Campos"
                 loading="lazy"
-                className="w-full h-full object-cover object-[25%_15%] scale-[1.25] md:scale-[1.2] translate-y-2 md:translate-y-4 transition-transform duration-700 hover:scale-[1.3] md:hover:scale-[1.25] grayscale-[10%] sepia-[5%] contrast-[1.05]"
+                className="w-full h-full object-cover object-[58%_25%] scale-[2.5] md:scale-[2.2] translate-y-4 transition-transform duration-700 hover:scale-[2.6] md:hover:scale-[2.3] grayscale-[15%] sepia-[10%] contrast-[1.15] brightness-[1.05]"
               />
             </div>
           </div>
